@@ -1,0 +1,61 @@
+
+Estructura de nombramiento 
+	
+	Variables: Las variables deberán nombrarse usando notación Camel Case 
+		   Deberá evitarse el uso de abreviaciones y caracteres únicos en los nombres de variables además de solo usar nombres descriptivos
+		   No se deben utilizar caracteres especiales para el nombramiento de variables
+		   Declarar una sola variable por cada línea de código
+		
+	
+	Métodos: Deberán nombrarse usando notación Camel Case
+		 
+
+	Clases: Deberán nombrarse usando notación Upper Camel Case
+
+
+	Archivos: Los archivos deberán tener el nombre de su clase principal en Upper Camel Case
+
+
+	Paquetes: Los paquetes deberán nombrarse con notación Upper Camel Case de manera descriptiva
+
+
+Estructura de archivos
+	
+//TODO
+
+
+Indentación y espaciado
+
+	Se debe realizar una Indentación para el código contenido dentro de estructuras de control, métodos y clases
+	
+	La llave para abrir una estructura de control, método o clase debe encontrarse directamente después de la declaración de esta y únicamente separada por un espacio
+
+	La llave que cierra una estructura de control, método o clase debe encontrarse una línea después a la última línea de código dentro de esta y al mismo nivel de Indentación que su declaración
+	
+	Se debe usar tabulación en vez de espacio para la Indentación de código
+
+	Los operadores lógicos y paréntesis tanto de apertura como de cierre deben ser precedidos y proseguidos de un espacio simple
+	
+
+Buenas practicas
+
+	Se debe evitar declarar atributos de clases como públicos y solo deben ser accesados a través de métodos de la clase
+
+	Se deben utilizar las constantes conforme sea necesario para evitar insertar números o cadenas estáticas directamente al código 
+
+	Los métodos deben tener una sola tarea
+	
+	Evitar usar variables globales, las variables deberán ser locales siempre que sea necesario
+
+	Evitar el uso de Switch en la medida que sea posible, prefiriendo usar If
+
+
+
+
+
+
+
+
+
+
+
