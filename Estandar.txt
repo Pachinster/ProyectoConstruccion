@@ -8,6 +8,7 @@ Estructura de nombramiento
 		
 	
 	Métodos: Deberán nombrarse usando notación Camel Case
+		 Los métodos para operaciones de modificación o consulta de atributos de clase deberán seguir el modelo getter y setter	
 		 
 
 	Clases: Deberán nombrarse usando notación Upper Camel Case
@@ -18,10 +19,39 @@ Estructura de nombramiento
 
 	Paquetes: Los paquetes deberán nombrarse con notación Upper Camel Case de manera descriptiva
 
+	
+	Constantes: Las constantes deberán nombrarse con todas las letras en mayúsculas y separando cada palabra del nombre con guiones bajos
+
 
 Estructura de archivos
 	
-//TODO
+Encabezado (Header)
+	- Poner un encabezado completo para que la gente sepa quién es el autor de la clase 
+
+	
+		Nombre completo.
+
+		Fecha para saber cuándo se comenzó el desarrollo de la clase DD/MM/AAAA
+	
+		Fecha de última modificación para saber cuándo fue la última vez que la clase se modifico
+	
+		Nombre de la clase para saber cómo referirse a éste durante el desarrollo del proyecto o para hacer referencia a él desde otros artefactos
+
+		Propósito de la clase (descripción), para conocer la justificación que hay para la creación de dicho programa.
+
+		/*
+		Creador: 
+		Fecha de creación: 
+		Fecha de última modificación:
+		Nombre de clase: 
+		Propósito: 
+		*/
+	
+	Comentarios: 
+		Utilizarlos únicamente cuando esto sea necesario
+		Para justificar porque alguna implementación especifica se implementó de la manera específica en que se hizo
+		Para explicar lógica compleja o rara en caso de que esta haya sido necesaria 
+		
 
 
 Indentación y espaciado
@@ -36,6 +66,7 @@ Indentación y espaciado
 
 	Los operadores lógicos y paréntesis tanto de apertura como de cierre deben ser precedidos y proseguidos de un espacio simple
 	
+	Debe haber una línea en blanco dividiendo a cada declaración de métodos dentro de una clase
 
 Buenas practicas
 
@@ -49,8 +80,9 @@ Buenas practicas
 
 	Evitar el uso de Switch en la medida que sea posible, prefiriendo usar If
 
+	Las variables se deben inicializar siempre que sean utilizadas
 
-
+	Nunca se debe atrapar una excepción que no haga nada
 
 
 
